@@ -32,6 +32,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Heroku login
 gem 'rails_12factor', group: :production
 
+gem 'react-rails', '~> 1.0'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

@@ -56,8 +56,11 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  <<: *default
-  database: learnfaust_test
+  adapter: postgresql
+  host: ec2-54-204-27-193.compute-1.amazonaws.com
+  username: mormwwrbiaeafa
+  database: dfmbv8t26c0qff
+  password: U8OC59tAlRCztqBeBFETMcXyPl
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -79,7 +82,9 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: learn_faust_production
-  username: learn_faust
-  password: <%= ENV['LEARN_FAUST_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  host: ec2-54-204-13-220.compute-1.amazonaws.com
+  username: xgtvvoufhhapjq
+  database: d5ti2df6935gv1
+  password: MExU3Tx1ufHYkouGp8WI8IuFr-
+
